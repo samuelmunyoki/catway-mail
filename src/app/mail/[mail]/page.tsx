@@ -15,7 +15,7 @@ export async function generateMetadata({
   if (params.mail.includes("%40")) {
     params.mail = params.mail.split("%40")[0] ?? params.mail;
   }
-  const mail = params.mail + "@catway.org";
+  const mail = params.mail + "@pawsmail.xyz";
   const mailsInMailBox = await getMailDataCount(mail);
   const title = `Inbox for ${mail}`;
   const description =
@@ -33,7 +33,7 @@ export default async function MailPage({ params }: MailPageProps) {
     params.mail = params.mail.split("%40")[0] ?? params.mail;
   }
 
-  const mail = params.mail + "@catway.org";
+  const mail = params.mail + "@pawsmail.xyz";
   const mailData = await getMailData(mail);
   return (
     <main className="container mx-auto mb-14 mt-6 flex flex-col items-center justify-center gap-6">

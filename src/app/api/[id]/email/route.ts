@@ -7,7 +7,7 @@ interface APIProps {
 
 export async function GET(request: NextRequest, { params }: APIProps) {
   if (!params.id.includes("@")) {
-    params.id = params.id + "@catway.org";
+    params.id = params.id + "@pawsmail.xyz";
   }
 
   const data = await getMailData(params.id);

@@ -11,9 +11,9 @@ const font = Rubik({
 });
 
 export const metadata = {
-  title: "Catway Mail",
+  title: "Manutech Mail Services",
   description:
-    "Purring into your inbox with temporary addresses, ensuring your privacy pounces away without a trace.",
+    "Offering thousands of genuine temp mails that autodelete in 48 hours, ensuring your privacy pounces away without a trace.",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 

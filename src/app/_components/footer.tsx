@@ -8,13 +8,13 @@ export default function Footer() {
       <ul className="flex items-center justify-center px-5 py-1">
         <li>
           <Link
-            title="Catway MAIL Github repository"
+            title="Developer emial"
             target="_blank"
-            href="https://github.com/TeaByte/catway-mail"
+            href="contact@samuelmunyoki.com"
             className="hover:underline"
           >
             <strong className="text-sm font-semibold">
-              Please ⭐ us on Github!
+              Contact for Support
             </strong>
           </Link>
         </li>

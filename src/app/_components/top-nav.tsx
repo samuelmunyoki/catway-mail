@@ -15,13 +15,13 @@ export default function TopNav() {
           <Image
             title="CatWay cat logo"
             draggable="false"
-            src="/cat-logo.webp"
+            src="/mail.png"
             alt="logo"
             width={50}
             height={50}
           />
           <h1 className="text-lg font-bold md:text-2xl">
-            CatWay<span className="font-light">MAIL</span>
+            ManutechMail <span className="font-light">SERVICES</span>
           </h1>
         </Link>
         <Link href={"/docs"}>

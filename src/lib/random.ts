@@ -1284,9 +1284,5 @@ const words = [
 ];
 
 export default function randomMail() {
-  let name = "";
-  for (let i = 0; i < 2; i++) {
-    name += words[Math.floor(Math.random() * words.length)] + "-";
-  }
-  return name.slice(0, -1);
+  return words[Math.floor(Math.random() * words.length)]
 }
